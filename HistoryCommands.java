@@ -1,10 +1,7 @@
-import java.util.Vector;
+import java.util.List;
 
 public class HistoryCommands {
 
-  public <Order> List;
-
-    public Vector  myOrder;
-    public Vector  myOrder;
+  public List<Order> commands;
   
 }

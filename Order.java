@@ -1,4 +1,4 @@
-import java.util.Vector;
+import java.util.List;
 
 public abstract class Order {
 
@@ -10,8 +10,7 @@ public abstract class Order {
 
   public List<Product> products;
 
-    public Vector  myHistoryCommands;
-    public Vector  myHistoryCommands;
+  public List<Order>  myHistoryCommands;
 
   public Integer getIdentifier() {
   return null;
@@ -27,5 +26,6 @@ public abstract class Order {
   public String getStatus() {
   return null;
   }
+  void setStatus(String status) { this.status = status; }
 
 }
